@@ -114,7 +114,7 @@ with st.container():
             "Preschool/Primary": 3, "Secondary School (9th-12th)": 7, 
             "High School Grad": 9, "No Degree / Currently Enrolled": 10,
             "Associates Degree": 11, "Bachelors Degree": 13,
-            "Masters Degree": 14, "Professional School": 15, "Doctorate": 16
+            "Masters Degree": 14, "Professional School (Law/Med School etc)": 15, "Doctorate": 16
         }
         selected_edu = st.selectbox("Education Level", list(edu_options.keys()))
         edu_num = edu_options[selected_edu]
